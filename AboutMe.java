@@ -4,13 +4,21 @@ public class AboutMe {
 
         //Escribe tu código aquí
 
+        String name = "Thais";
+        byte age = 31;
+        String country = "Brasil";
+        String programmingLanguage = "Java";
+        String hours = "8";
+        String hobby = "bordar";
+        String place = "casa";
+
         //Reemplaza <name> y <age> concatenando el String con las variables creadas. 
-        System.out.println("Mi nombre es <name>, tengo <age> años y soy de <country>.");
+        System.out.println("Mi nombre es " + name + ", tengo " + age + " años y soy de " + country + ".");
 
         //Reemplaza <programmingLanguage> y <hours> concatenando el String con las variables creadas. 
-        System.out.println("Estoy estudiando <programmingLanguage> y practico <hours> horas al día.");
+        System.out.println("Estoy estudiando " + programmingLanguage + " y practico " + hours + " horas al día.");
 
         //Reemplaza <hobby> y <place> concatenando el String con las variables creadas.
-        System.out.println("Mi pasatiempo favorito es <hobby> y lo practico en <place>");
+        System.out.println("Mi pasatiempo favorito es " + hobby + " y lo practico en " + place + ".");
     }
 }
