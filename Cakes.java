@@ -11,25 +11,28 @@ public class Cakes {
         //Corre el siguiente código
         System.out.println("Cada persona se lleva " + ((double)cake / people) + " partes de pastel");
         //El resultado obtenido es de tipo double.
-        
 
         //Ahora vamos a escribir un programa que convierta un valor de tipo double a int y de int a double. 
 
         //Declara y asigna un valor a una variable double
         //Escribe aquí tu código
-        System.out.println("Valor original de double: <doubleValue>");
+        double doubleValue = 4.84;
+        System.out.println("Valor original de double: " + doubleValue);
 
         //Convierte double a int
         //Escribe aquí tu código
-        System.out.println("Valor convertido de double a int: <intValue>");
+        int IntValue = (int)doubleValue;
+        System.out.println("Valor convertido de double a int: " + IntValue);
 
         //Declara y asigna un valor a una variable int
         //Escribe aquí tu código
-        System.out.println("Valor original de int: <anotherIntValue>");
+        int anotherIntValue = 4;
+        System.out.println("Valor original de int: " + anotherIntValue);
 
         //Convierte int a double
         //Escribe aquí tu código
-        System.out.println("Valor convertido de int a double: <anotherDoubleValue>");
+        double anotherDoubleValue = (double)anotherIntValue;
+        System.out.println("Valor convertido de int a double: " + anotherDoubleValue);
                
     }
 }
