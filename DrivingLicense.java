@@ -1,10 +1,10 @@
 public class DrivingLicense {
     public static void main(String[] args) {
         //inicializar una variable (del tipo que veas conveniente) que contenga los puntos del carnet de conducir que empiece con 0 puntos.
-        byte punts = 0;
+        byte points = 0;
         System.out.println("Has sacado tu carnet de conducir, felicidades tienes 12 puntos");
         // Actualiza los puntos aquí
-        int firstpoints = punts + 12;
+        int firstpoints = points + 12;
         System.out.println("Te has negado a realizar pruebas de alcohol o drogas, pierdes 6 puntos");
         // Actualiza los puntos aquí
         int secondpoints = firstpoints - 6;
@@ -31,7 +31,7 @@ public class DrivingLicense {
         System.out.println("Han pasado 3 años y sigues sin cometer infracciones, ganas 2 puntos");
         // Actualiza los puntos aquí
         int eighthpoints = seventhpoints + 2;
-        System.out.println("¿Cuántos puntos tienes");
+        System.out.println("¿Cuántos puntos tienes?");
         // Imprimir el total de puntos que tienes actualmente
         System.out.println("Actualmente tienes " + eighthpoints + " puntos.");
     }
